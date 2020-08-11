@@ -27,7 +27,7 @@ Here are some ideas to get you started:
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mirfan899)](https://github.com/mirfan899/github-readme-stats)
 
 
-![Irfan's github stats](https://github-readme-stats.vercel.app/api?username=mirfan899&show_icons=true&theme=dark)
+![Irfan's github stats](https://github-readme-stats.vercel.app/api?username=mirfan899&show_icons=true&theme=dark&count_private=true)
 
 [twitter]: https://twitter.com/mirfan899
 [instagram]: https://instagram.com/mirfan899
