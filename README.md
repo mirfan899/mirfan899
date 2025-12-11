@@ -53,105 +53,73 @@ My work spans:
 
 ---
 
+## 🚀 Core Skills
 
-## 🎚️ Animated Skill Bars
+| Skill | Level |
+|-------|-------|
+| **AI / ML** | ![AI/ML](https://img.shields.io/badge/AI%20%2F%20ML-90%25-brightgreen) |
+| **LLMs / RAG** | ![LLMs/RAG](https://img.shields.io/badge/LLMs%20%2F%20RAG-85%25-green) |
+| **Computer Vision** | ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-85%25-green) |
+| **Full-Stack** | ![Full-Stack](https://img.shields.io/badge/Full%20Stack-75%25-yellowgreen) |
+| **Mobile / Android** | ![Mobile](https://img.shields.io/badge/Mobile%20%2F%20Android-70%25-blue) |
+| **Speech / TTS** | ![Speech](https://img.shields.io/badge/Speech%20%2F%20TTS-80%25-orange) |
+| **Video Processing** | ![Video](https://img.shields.io/badge/Video%20Processing-75%25-purple) |
 
-> **GitHub strips some inline SVG attributes depending on size/position.**
-> I fixed the layout and simplified the structure so the *Core Skills* will now render correctly.
 
-### Core Skills
-
-<p align="left">
-  <!-- FIXED: GitHub-safe SVG wrapper added -->
-  <svg width="520" height="140" viewBox="0 0 520 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Core skills">
-    <style>
-      .label { font: 12px/1.2 system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; fill: #24292f; }
-      .bg { fill: #e6edf3; }
-      .bar { fill: #2ea44f; }
-      .percent { font: 11px/1.2 system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; fill: #24292f; }
-    </style>
-    <!-- AI/ML -->
-    <text x="10" y="18" class="label">AI / ML</text>
-    <rect x="100" y="6" width="400" height="16" rx="8" class="bg" />
-    <rect x="100" y="6" width="360" height="16" rx="8" class="bar" />
-    <text x="480" y="18" class="percent">90%</text>
-    <!-- LLMs -->
-    <text x="10" y="48" class="label">LLMs / RAG</text>
-    <rect x="100" y="36" width="400" height="16" rx="8" class="bg" />
-    <rect x="100" y="36" width="340" height="16" rx="8" class="bar" />
-    <text x="480" y="48" class="percent">85%</text>
-    <!-- CV -->
-    <text x="10" y="78" class="label">Computer Vision</text>
-    <rect x="100" y="66" width="400" height="16" rx="8" class="bg" />
-    <rect x="100" y="66" width="340" height="16" rx="8" class="bar" />
-    <text x="480" y="78" class="percent">85%</text>
-    <!-- Full-Stack -->
-    <text x="10" y="108" class="label">Full-Stack</text>
-    <rect x="100" y="96" width="400" height="16" rx="8" class="bg" />
-    <rect x="100" y="96" width="300" height="16" rx="8" class="bar" />
-    <text x="480" y="108" class="percent">75%</text>
-  </svg>
-</p>
-### Other Skills
-
-<p align="left">
-  <svg width="520" height="120" viewBox="0 0 520 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Skill bars">
-    <style>
-      .label { font: 12px/1.2 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; fill: #24292f; }
-      .bg { fill: #eef6fa; }
-      .bar { fill: #0366d6; }
-      .percent { font: 11px/1.2 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; fill: #24292f; }
-    </style>
-
-<!-- Mobile -->
-<text x="10" y="18" class="label">Mobile / Android</text>
-<rect x="140" y="6" width="360" height="12" rx="6" class="bg" />
-<rect x="140" y="6" width="0" height="12" rx="6" class="bar">
-  <animate attributeName="width" from="0" to="252" dur="1.4s" fill="freeze" />
-</rect>
-<text x="510" y="18" class="percent">70%</text>
-
-<!-- Speech -->
-<text x="10" y="46" class="label">Speech / TTS</text>
-<rect x="140" y="34" width="360" height="12" rx="6" class="bg" />
-<rect x="140" y="34" width="0" height="12" rx="6" class="bar">
-  <animate attributeName="width" from="0" to="288" dur="1.4s" fill="freeze" />
-</rect>
-<text x="510" y="46" class="percent">80%</text>
-
-<!-- Video Processing -->
-<text x="10" y="74" class="label">Video Processing</text>
-<rect x="140" y="62" width="360" height="12" rx="6" class="bg" />
-<rect x="140" y="62" width="0" height="12" rx="6" class="bar">
-  <animate attributeName="width" from="0" to="270" dur="1.4s" fill="freeze" />
-</rect>
-<text x="510" y="74" class="percent">75%</text>
-
-<!-- GIS -->
-<text x="10" y="102" class="label">GIS / GEE</text>
-<rect x="140" y="90" width="360" height="12" rx="6" class="bg" />
-<rect x="140" y="90" width="0" height="12" rx="6" class="bar">
-  <animate attributeName="width" from="0" to="216" dur="1.4s" fill="freeze" />
-</rect>
-<text x="510" y="102" class="percent">60%</text>
-
-  </svg>
-</p>
-
-> Tip: If you'd like different target percentages, colors, or widths, tell me the exact values and I will update the bars.
 
 ### **Languages & Tools**
 
-| Category            | Tools / Tech                                                                        |
-| ------------------- | ----------------------------------------------------------------------------------- |
-| **AI/ML**           | PyTorch, TensorFlow Lite, scikit-learn, XGBoost, Milvus, FAISS, ObjectBox Vector DB |
-| **LLMs**            | OpenAI, Ollama, Transformers, RAG, embedding pipelines                              |
-| **Speech**          | Orpheus‑TTS, Whisper, VAD, diarization                                              |
-| **Computer Vision** | OpenCV, LoFTR, LightGlue, Kornia, image matching                                    |
-| **Mobile**          | Android (Kotlin), React Native                                                      |
-| **Full‑Stack**      | Next.js, AngularJS, Prisma, MySQL, Tailwind, JWT                                    |
-| **Cloud/DevOps**    | Azure, Docker, FastAPI, REST APIs                                                   |
-| **GIS**             | Google Earth Engine, QGIS, Raster/Vector analysis                                   |
+**AI / ML**  
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) 
+![TensorFlow Lite](https://img.shields.io/badge/TensorFlowLite-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) 
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) 
+![XGBoost](https://img.shields.io/badge/XGBoost-FF3E00?style=for-the-badge&logo=xgboost&logoColor=white) 
+![Milvus](https://img.shields.io/badge/Milvus-6CB52D?style=for-the-badge&logo=milvus&logoColor=white) 
+![FAISS](https://img.shields.io/badge/FAISS-050505?style=for-the-badge&logo=faiss&logoColor=white) 
+![ObjectBox](https://img.shields.io/badge/ObjectBox-0078D4?style=for-the-badge&logo=objectbox&logoColor=white)
+
+**LLMs**  
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) 
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white) 
+![Transformers](https://img.shields.io/badge/Transformers-FF6F00?style=for-the-badge&logo=transformers&logoColor=white) 
+![RAG](https://img.shields.io/badge/RAG-2B6CB0?style=for-the-badge&logo=read-the-docs&logoColor=white) 
+![Embeddings](https://img.shields.io/badge/Embeddings-6D6DFF?style=for-the-badge&logo=github&logoColor=white)
+
+**Speech**  
+![Orpheus-TTS](https://img.shields.io/badge/Orpheus-TTS-00BFFF?style=for-the-badge&logo=audio&logoColor=white) 
+![Whisper](https://img.shields.io/badge/Whisper-8A2BE2?style=for-the-badge&logo=audio&logoColor=white) 
+![VAD](https://img.shields.io/badge/VAD-FF69B4?style=for-the-badge&logo=github&logoColor=white) 
+![Diarization](https://img.shields.io/badge/Diarization-32CD32?style=for-the-badge&logo=github&logoColor=white)
+
+**Computer Vision**  
+![OpenCV](https://img.shields.io/badge/OpenCV-27338E?style=for-the-badge&logo=opencv&logoColor=white) 
+![LoFTR](https://img.shields.io/badge/LoFTR-FF4500?style=for-the-badge&logo=github&logoColor=white) 
+![LightGlue](https://img.shields.io/badge/LightGlue-FF6347?style=for-the-badge&logo=github&logoColor=white) 
+![Kornia](https://img.shields.io/badge/Kornia-1E90FF?style=for-the-badge&logo=github&logoColor=white) 
+![Image Matching](https://img.shields.io/badge/Image-Matching-DAA520?style=for-the-badge&logo=github&logoColor=white)
+
+**Mobile**  
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) 
+![React Native](https://img.shields.io/badge/ReactNative-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+
+**Full-Stack**  
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) 
+![AngularJS](https://img.shields.io/badge/AngularJS-DD0031?style=for-the-badge&logo=angular&logoColor=white) 
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white) 
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) 
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white) 
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+
+**Cloud / DevOps**  
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white) 
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) 
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) 
+![REST API](https://img.shields.io/badge/REST-API-FF6F61?style=for-the-badge&logo=rest&logoColor=white)
+
+**GIS**  
+![GEE](https://img.shields.io/badge/Google_Earth_Engine-4285F4?style=for-the-badge&logo=google&logoColor=white) 
+![QGIS](https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white) 
+![Raster/Vector Analysis](https://img.shields.io/badge/Raster%2FVector-8A2BE2?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
@@ -169,46 +137,17 @@ pie title Skills Distribution
 
 ---
 
-## 🧪 Featured Projects
-
-### **🔍 AI Feature Matching Engine (LoFTR + LightGlue)**
-
-* Reduced feature count for performance
-* Added ObjectBox-based vector search
-* Enabled real-time AR overlay in Android
-
-### **🗂️ Search Console Content Workflow**
-
-* Live data pipeline using `searchconsole` package
-* Automated content briefs & NLP-driven writing flow
-
-### **🌡️ GEE Heatmap Analysis for Islamabad**
-
-* LST & LULC classification
-* Multi-year raster comparison
-* Automated map exporting
-
-### **🎧 Voice‑Interactive Chat Widget for Websites**
-
-* Uses *heygen/streaming-avatar*
-* Next.js front-end + secure token backend
-* WordPress embeddable widget
-
----
-
 ## 📊 GitHub Stats
 
-![Irfan's GitHub stats](https://github-readme-stats.vercel.app/api?username=mirfan899\&show_icons=true\&hide_border=true\&theme=transparent)
+![Irfan's GitHub stats](https://github-readme-stats.vercel.app/api?username=mirfan899&show_icons=true&hide_border=true&theme=radical)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mirfan899\&layout=compact\&hide_border=true\&theme=transparent)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mirfan899&layout=compact&hide_border=true&theme=radical)
 
 ---
 
 ## 🏆 GitHub Trophies
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=mirfan899\&theme=algolia\&no-frame=true\&no-bg=true\&margin-w=4)
-
----
+![Trophies](https://github-profile-trophy.vercel.app/?username=mirfan899&theme=radical&no-frame=true&no-bg=true&margin-w=4)
 
 ## 📌 Tech Stack Badges
 
