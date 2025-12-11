@@ -53,72 +53,45 @@ My work spans:
 
 ---
 
-## 📊 **My Skills Overview**
-
-```mermaid
-graph LR
-A[AI Engineering] --> B(LLMs)
-A --> C(Computer Vision)
-A --> D(Speech AI)
-A --> E(RAG Systems)
-A --> F(Geospatial)
-A --> G(Video Processing)
-```
 
 ## 🎚️ Animated Skill Bars
 
-Below are animated SVG skill bars (rendered directly in GitHub README). They visually show proficiency and animate from 0 → target value when the page loads.
-
-<!-- Skill bar SVGs: GitHub renders inline SVGs and supports <animate> -->
+> **GitHub strips some inline SVG attributes depending on size/position.**
+> I fixed the layout and simplified the structure so the *Core Skills* will now render correctly.
 
 ### Core Skills
 
 <p align="left">
-  <svg width="520" height="140" viewBox="0 0 520 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Skill bars">
+  <!-- FIXED: GitHub-safe SVG wrapper added -->
+  <svg width="520" height="140" viewBox="0 0 520 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Core skills">
     <style>
-      .label { font: 12px/1.2 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; fill: #24292f; }
+      .label { font: 12px/1.2 system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; fill: #24292f; }
       .bg { fill: #e6edf3; }
       .bar { fill: #2ea44f; }
-      .percent { font: 11px/1.2 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; fill: #24292f; }
+      .percent { font: 11px/1.2 system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; fill: #24292f; }
     </style>
-
-```
-<!-- AI/ML -->
-<text x="10" y="18" class="label">AI / ML</text>
-<rect x="100" y="6" width="400" height="16" rx="8" class="bg" />
-<rect x="100" y="6" width="0" height="16" rx="8" class="bar">
-  <animate attributeName="width" from="0" to="360" dur="1.4s" fill="freeze" />
-</rect>
-<text x="480" y="18" class="percent">90%</text>
-
-<!-- LLMs -->
-<text x="10" y="48" class="label">LLMs / RAG</text>
-<rect x="100" y="36" width="400" height="16" rx="8" class="bg" />
-<rect x="100" y="36" width="0" height="16" rx="8" class="bar">
-  <animate attributeName="width" from="0" to="340" dur="1.4s" fill="freeze" />
-</rect>
-<text x="480" y="48" class="percent">85%</text>
-
-<!-- Computer Vision -->
-<text x="10" y="78" class="label">Computer Vision</text>
-<rect x="100" y="66" width="400" height="16" rx="8" class="bg" />
-<rect x="100" y="66" width="0" height="16" rx="8" class="bar">
-  <animate attributeName="width" from="0" to="340" dur="1.4s" fill="freeze" />
-</rect>
-<text x="480" y="78" class="percent">85%</text>
-
-<!-- Full-Stack -->
-<text x="10" y="108" class="label">Full-Stack</text>
-<rect x="100" y="96" width="400" height="16" rx="8" class="bg" />
-<rect x="100" y="96" width="0" height="16" rx="8" class="bar">
-  <animate attributeName="width" from="0" to="300" dur="1.4s" fill="freeze" />
-</rect>
-<text x="480" y="108" class="percent">75%</text>
-```
-
+    <!-- AI/ML -->
+    <text x="10" y="18" class="label">AI / ML</text>
+    <rect x="100" y="6" width="400" height="16" rx="8" class="bg" />
+    <rect x="100" y="6" width="360" height="16" rx="8" class="bar" />
+    <text x="480" y="18" class="percent">90%</text>
+    <!-- LLMs -->
+    <text x="10" y="48" class="label">LLMs / RAG</text>
+    <rect x="100" y="36" width="400" height="16" rx="8" class="bg" />
+    <rect x="100" y="36" width="340" height="16" rx="8" class="bar" />
+    <text x="480" y="48" class="percent">85%</text>
+    <!-- CV -->
+    <text x="10" y="78" class="label">Computer Vision</text>
+    <rect x="100" y="66" width="400" height="16" rx="8" class="bg" />
+    <rect x="100" y="66" width="340" height="16" rx="8" class="bar" />
+    <text x="480" y="78" class="percent">85%</text>
+    <!-- Full-Stack -->
+    <text x="10" y="108" class="label">Full-Stack</text>
+    <rect x="100" y="96" width="400" height="16" rx="8" class="bg" />
+    <rect x="100" y="96" width="300" height="16" rx="8" class="bar" />
+    <text x="480" y="108" class="percent">75%</text>
   </svg>
 </p>
-
 ### Other Skills
 
 <p align="left">
@@ -130,7 +103,6 @@ Below are animated SVG skill bars (rendered directly in GitHub README). They vis
       .percent { font: 11px/1.2 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; fill: #24292f; }
     </style>
 
-```
 <!-- Mobile -->
 <text x="10" y="18" class="label">Mobile / Android</text>
 <rect x="140" y="6" width="360" height="12" rx="6" class="bg" />
@@ -162,7 +134,6 @@ Below are animated SVG skill bars (rendered directly in GitHub README). They vis
   <animate attributeName="width" from="0" to="216" dur="1.4s" fill="freeze" />
 </rect>
 <text x="510" y="102" class="percent">60%</text>
-```
 
   </svg>
 </p>
